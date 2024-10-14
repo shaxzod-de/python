@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+    <style>
+        /* .flex-container{
+            display: flex;
+            background-color: dodgerblue;
+            flex-wrap: wrap; */
+        /* flex-direction: column-reverse;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }   */
+        .container {
+            background-color: #020202;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .flex-container {
+            display: flex;
+            background-color: #34d40b;
+        }
+
+        .flex-container>div {
+            background-color: DodgerBlue;
+            color: white;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+        .order1{
+            order: 0;
+            border-radius: 25%;
+        }
+        .order2{
+            order: -2;
+            border-radius: 30%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- <div class="flex-container">
+        <div class="container">1</div>
+        <div class="container">2</div>
+        <div class="container">3</div>
+        <div class="container">4</div>
+        <div class="container">5</div>
+        <div class="container">6</div>
+        <div class="container">7</div>
+        <div class="container">8</div>
+        <div class="container">9</div>
+        <div class="container">10</div>
+        <div class="container">11</div>
+        <div class="container">12</div> -->
+    <div class="flex-container">
+        <div class="order1">1</div>
+        <div class="order2">2</div>
+        <div class="order3">3</div>
+    </div>
+    </div>
+</body>
+
+</html>

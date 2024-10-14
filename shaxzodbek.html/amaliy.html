@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,select,textarea {
+            padding: 10px;
+            width: 100%;
+            height: 50%;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            margin: 5px 0 25px;
+        }
+        .container{
+            width: 50%;
+            margin: 100px auto 0   ;
+            box-sizing: border-box;
+        }
+        button{
+            background-color: brown;
+            color: white;
+            font-size: 50;
+        }
+        button:hover{
+            background-color: green;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <label for="1">Ism</label>
+            <input type="text" id="1" name="Ism">
+            <label for="2">Familya</label>
+            <input type="text" id="2" name="Familya">
+            <label for="3">Davlat</label>
+            <!-- <input type="text" id="3" name="Davlat"> -->
+            <select name="Davlat" id="3">
+                <option value="Uzb">O'zbekiston</option>
+                <option value="Rossiya">Rossiya</option>
+                <option value="AQSh">AQSh</option>
+            </select>
+            <label for="4">Sana</label>
+            <input type="date" id="4" name="Sana">
+            <label for="5">Xabar    </label>
+            <textarea name="xabar" id=""></textarea>
+            <button>jonatish</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
