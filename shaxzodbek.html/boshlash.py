@@ -387,3 +387,9 @@ print(ism)
 #     if x not in number:
 #         number.append(x)
 # print(number)
+
+
+#git
+a=(5)
+b=(6)
+print(a+b)
